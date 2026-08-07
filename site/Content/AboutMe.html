@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About Me - Antonio</title>
+    <meta name="description" content="A little bit about Antonio, aka Tea: sports, games, and learning to code.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050505">
+    <meta property="og:title" content="About Me - Antonio">
+    <meta property="og:description" content="A little bit about Antonio, aka Tea: sports, games, and learning to code.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://antonio-tl.com/Content/AboutMe.html">
+    <link rel="canonical" href="https://antonio-tl.com/Content/AboutMe.html">
+    <link rel="icon" type="image/png" href="../Images/Icon.png">
+    <link href="../CSS/design.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html" class="logo">Antonio</a>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation menu">
+            <svg class="icon icon-menu"><use href="../Images/icons/sprite.svg#icon-menu"></use></svg>
+            <svg class="icon icon-close"><use href="../Images/icons/sprite.svg#icon-close"></use></svg>
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <a href="../index.html">Home</a>
+            <a href="AboutMe.html" class="active">About Me</a>
+            <a href="Projects.html">Projects</a>
+        </nav>
+    </header>
+
+    <section class="about">
+        <div class="profile-card project-card" data-reveal data-reveal-delay="0">
+            <div class="profile-photo">
+                <img src="../Images/profile.webp" alt="Antonio's profile picture" width="96" height="96">
+            </div>
+
+            <h2>Antonio T.<span>Nickname: Tea</span></h2>
+
+            <h3>About Me</h3>
+            <p>
+                Hey! My name is Antonio, but most of my friends call me Tea.
+                I love sports, especially basketball and volleyball, and my
+                favorite game is Brawlhalla.
+            </p>
+
+            <div class="icon-row">
+                <a href="#" id="dcBtn" class="icon-link" aria-label="Show Discord tag" aria-haspopup="dialog">
+                    <svg class="icon"><use href="../Images/icons/sprite.svg#icon-discord"></use></svg>
+                </a>
+                <a href="https://steamcommunity.com/profiles/76561198381881233/" target="_blank" rel="noopener" class="icon-link" aria-label="Steam">
+                    <svg class="icon"><use href="../Images/icons/sprite.svg#icon-steam"></use></svg>
+                </a>
+                <a href="https://www.instagram.com/antonio.tlu/" target="_blank" rel="noopener" class="icon-link" aria-label="Instagram">
+                    <svg class="icon"><use href="../Images/icons/sprite.svg#icon-instagram"></use></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-backdrop" id="dcModal">
+        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="dcModalTitle">
+            <div class="modal-card-head">
+                <h3 id="dcModalTitle">My Discord Tag</h3>
+                <button class="modal-close" id="dcClose" aria-label="Close">
+                    <svg class="icon"><use href="../Images/icons/sprite.svg#icon-close"></use></svg>
+                </button>
+            </div>
+            <p>tea14</p>
+        </div>
+    </div>
+
+    <script src="../JS/main.js"></script>
+</body>
+
+</html>

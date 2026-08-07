@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projects - Antonio</title>
+    <meta name="description" content="Projects by Antonio, including a Pokedex covering all 1025 Pokemon and a personal bookshelf tracker.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050505">
+    <meta property="og:title" content="Projects - Antonio">
+    <meta property="og:description" content="Projects by Antonio, including a Pokedex covering all 1025 Pokemon and a personal bookshelf tracker.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://antonio-tl.com/Content/Projects.html">
+    <link rel="canonical" href="https://antonio-tl.com/Content/Projects.html">
+    <link rel="icon" type="image/png" href="../Images/Icon.png">
+    <link href="../CSS/design.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html" class="logo">Antonio</a>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation menu">
+            <svg class="icon icon-menu"><use href="../Images/icons/sprite.svg#icon-menu"></use></svg>
+            <svg class="icon icon-close"><use href="../Images/icons/sprite.svg#icon-close"></use></svg>
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <a href="../index.html">Home</a>
+            <a href="AboutMe.html">About Me</a>
+            <a href="Projects.html" class="active">Projects</a>
+        </nav>
+    </header>
+
+    <section class="project-hero">
+        <div class="project-hero-content">
+            <h1 data-reveal data-reveal-delay="0">Projects</h1>
+            <p data-reveal data-reveal-delay="80">A few things I've built while learning to code.</p>
+        </div>
+
+        <a href="#projectsList" class="scroll-cue" aria-label="Scroll to projects">
+            <svg class="icon"><use href="../Images/icons/sprite.svg#icon-arrow-down"></use></svg>
+        </a>
+    </section>
+
+    <section class="projects" id="projectsList">
+        <div class="project-bento">
+            <article class="project-card project-card--primary" data-reveal data-reveal-delay="0">
+                <div class="project-icon">
+                    <svg class="icon"><use href="../Images/icons/sprite.svg#icon-controller"></use></svg>
+                </div>
+                <h2>Pokedex</h2>
+                <p>A National Pokedex covering all 1025 Pokemon, filterable by type and generation.</p>
+                <div class="tag-row">
+                    <span class="tag">Web App</span>
+                    <span class="tag">1025 Pokemon</span>
+                    <span class="tag">React</span>
+                    <span class="tag">Poke API</span>
+                </div>
+                <a href="https://pokedex.antonio-tl.com" target="_blank" rel="noopener" class="btn btn-ghost">
+                    Visit project
+                    <svg class="icon"><use href="../Images/icons/sprite.svg#icon-external"></use></svg>
+                </a>
+            </article>
+
+            <article class="project-card project-card--secondary" data-reveal data-reveal-delay="80">
+                <div class="project-icon">
+                    <svg class="icon"><use href="../Images/icons/sprite.svg#icon-book"></use></svg>
+                </div>
+                <h2>Bookshelf</h2>
+                <p>My personal reading tracker: books organized by series and genre, read or in progress.</p>
+                <div class="tag-row">
+                    <span class="tag">Web App</span>
+                    <span class="tag">Personal</span>
+                    <span class="tag">Supabase</span>
+                    <span class="tag">Google</span>
+                </div>
+                <a href="https://bookshelf.antonio-tl.com" target="_blank" rel="noopener" class="btn btn-ghost">
+                    Visit project
+                    <svg class="icon"><use href="../Images/icons/sprite.svg#icon-external"></use></svg>
+                </a>
+            </article>
+
+            <article class="project-card project-card--soon" data-reveal data-reveal-delay="160">
+                <div class="project-icon">
+                    <svg class="icon"><use href="../Images/icons/sprite.svg#icon-sparkle"></use></svg>
+                </div>
+                <div class="project-card--soon-text">
+                    <h2>More on the way</h2>
+                    <p>I'm always working on something new. Check back soon.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <script src="../JS/main.js"></script>
+</body>
+
+</html>
