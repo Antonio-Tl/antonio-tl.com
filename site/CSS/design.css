@@ -510,8 +510,13 @@ a {
   grid-row: 1;
 }
 
+.project-card--tertiary {
+  grid-column: 1;
+  grid-row: 2;
+}
+
 .project-card--soon {
-  grid-column: 1 / -1;
+  grid-column: 2;
   grid-row: 2;
 }
 
@@ -717,6 +722,7 @@ a {
 
   .project-card--primary,
   .project-card--secondary,
+  .project-card--tertiary,
   .project-card--soon {
     grid-column: 1;
     grid-row: auto;
