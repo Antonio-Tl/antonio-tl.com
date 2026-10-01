@@ -515,9 +515,14 @@ a {
   grid-row: 2;
 }
 
-.project-card--soon {
+.project-card--quaternary {
   grid-column: 2;
   grid-row: 2;
+}
+
+.project-card--soon {
+  grid-column: 1 / -1;
+  grid-row: 3;
 }
 
 .project-card {
@@ -723,6 +728,7 @@ a {
   .project-card--primary,
   .project-card--secondary,
   .project-card--tertiary,
+  .project-card--quaternary,
   .project-card--soon {
     grid-column: 1;
     grid-row: auto;
